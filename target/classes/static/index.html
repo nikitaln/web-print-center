@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Online Print Task</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="/js/print.js"></script>
+</head>
+<body>
+    <section class="main">
+        <section class="left">
+            <dif class="parameters-tasks">Параметры заявки
+                <section class="format-document">
+                    <p>Выбрать формат печати:</p>
+                    <p><input type="radio" name="a" value="A4"> A4</p>
+                    <p><input type="radio" name="a" value="A4"> A3</p>
+                    <p><input type="radio" name="a" value="A4"> A2</p>
+                    <p><input type="radio" name="a" value="A4"> A1</p>
+                    <p><input type="radio" name="a" value="A4"> A0</p>
+                </section>
+                <section class="fold">
+                    <p>Фальцевание (складывание в А4):</p>
+                    <p><input type="radio" name="a" value="A4"> Да</p>
+                    <p><input type="radio" name="a" value="A4"> Нет</p>
+                </section>
+                <section class="type-paper">
+                    <p>Тип бумаги:</p>
+                    <p><input type="radio" name="a" value="A4"> Обычная</p>
+                    <p><input type="radio" name="a" value="A4"> Плотная</p>
+                </section>
+                <section class="count-copy">
+                    <p>Кол-во копий:</p>
+                    <p><input type="text" name="field" value=""> копий</p>
+                </section>
+                <section class="user-name">
+                    <p>Введите ФИО:</p>
+                    <p>ФИО: <input type="text" name="field" value=""></p>
+                </section>
+            </dif>
+        </section>
+        <section class="right">
+            <dif class="status">Статус заявки</dif>
+        </section>
+    </section>
+
+    <button class="send">Отправить</button>
+    
+
+</body>
+</html>

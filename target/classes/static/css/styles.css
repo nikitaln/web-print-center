@@ -1,0 +1,64 @@
+.main {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.left {
+
+    width: 400px;
+    height: 600px;
+    border: 1px solid grey;
+    margin-right: 10px;
+}
+
+.right {
+
+    width: 400px;
+    height: 600px;
+    border: 1px solid red;
+    
+}
+
+button {
+    height: 50px;
+    width: 400px;
+    color: red;
+}
+
+.format-document {
+    width: 400px;
+    height: 150px;
+    border: 1px solid grey;
+    margin-top: 30px;
+
+}
+
+.fold {
+    width: 400px;
+    height: 80px;
+    border: 1px solid grey;
+
+}
+
+.type-paper {
+    width: 400px;
+    height: 80px;
+    border: 1px solid grey;
+
+}
+
+.count-copy {
+    width: 400px;
+    height: 60px;
+    border: 1px solid grey;
+}
+
+.user-name {
+    width: 400px;
+    height: 60px;
+    border: 1px solid grey;
+}
+
+p {
+    margin: 5px;;
+}
