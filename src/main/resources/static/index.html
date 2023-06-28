@@ -8,44 +8,28 @@
     <script src="/js/print.js"></script>
 </head>
 <body>
-    <section class="main">
-        <section class="left">
-            <dif class="parameters-tasks">Параметры заявки
-                <section class="format-document">
-                    <p>Выбрать формат печати:</p>
-                    <p><input type="radio" name="a" value="A4"> A4</p>
-                    <p><input type="radio" name="a" value="A4"> A3</p>
-                    <p><input type="radio" name="a" value="A4"> A2</p>
-                    <p><input type="radio" name="a" value="A4"> A1</p>
-                    <p><input type="radio" name="a" value="A4"> A0</p>
-                </section>
-                <section class="fold">
-                    <p>Фальцевание (складывание в А4):</p>
-                    <p><input type="radio" name="a" value="A4"> Да</p>
-                    <p><input type="radio" name="a" value="A4"> Нет</p>
-                </section>
-                <section class="type-paper">
-                    <p>Тип бумаги:</p>
-                    <p><input type="radio" name="a" value="A4"> Обычная</p>
-                    <p><input type="radio" name="a" value="A4"> Плотная</p>
-                </section>
-                <section class="count-copy">
-                    <p>Кол-во копий:</p>
-                    <p><input type="text" name="field" value=""> копий</p>
-                </section>
-                <section class="user-name">
-                    <p>Введите ФИО:</p>
-                    <p>ФИО: <input type="text" name="field" value=""></p>
-                </section>
-            </dif>
-        </section>
-        <section class="right">
-            <dif class="status">Статус заявки</dif>
-        </section>
-    </section>
 
-    <button class="send">Отправить</button>
-    
+<div class="start-page">
+    <div class="menu">
+        <form class="menu-form">
+            <label>Выбор параметров печати</label>
+            <input type="radio" name="a" value="A0">А0 формат
+            <input type="radio" name="a" value="A1">А1 формат
 
+            <label>Выбор плотности</label>
+            <input type="radio" name="b" value="90">обычная
+            <input type="radio" name="b" value="120">плотная
+        </form>
+        <button class="send">Отправить</button>
+    </div>
+    <div class="queue">Место для очереди
+        <div class="task">Заявка
+            <div class ="format">А0</div>
+            <div class ="density">обычная</div>
+
+        </div>
+    </div>
+
+</div>
 </body>
 </html>
