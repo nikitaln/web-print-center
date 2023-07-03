@@ -10,16 +10,17 @@ public class ApiController {
     Storage storage = new Storage();
 
     @PostMapping(value = "/newTask")
-    public int addTask(String format, String density) {
+    public int addTask(Task task) {
 
-        System.out.println("format: " + format);
-        System.out.println("density: " + density);
+        System.out.println("format: " + task.getFormat());
+        System.out.println("density: " + task.getDensity());
 
-        Task task = new Task();
+//        Task task = new Task();
+//        task.setId(1);
+//        task.setFormat(format);
+//        task.setDensity(density);
+
         task.setId(1);
-        task.setFormat(format);
-        task.setDensity(density);
-
         storage.tasks.add(task);
         System.out.println(Storage.tasks.size());
 
