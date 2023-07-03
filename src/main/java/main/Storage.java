@@ -5,6 +5,6 @@ import java.util.List;
 
 public class Storage {
 
-    List<Task> tasks = new ArrayList<>();
+    public static List<Task> tasks = new ArrayList<>();
 
 }

@@ -1,8 +1,18 @@
 package main;
 
 public class Task {
+
+    private int id;
     private String format;
     private String density;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     public String getFormat() {
         return format;
