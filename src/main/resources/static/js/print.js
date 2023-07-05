@@ -1,15 +1,5 @@
 $(function() {
 
-//    const appendTask = function(data)
-//    {
-//        var oneTaskDiv = '<a href="#" class="task-link" data-id="' + data.id + '">'
-//            'формат печати: '+ data.format + 'плотность: ' + data.density + '</a>';
-//
-//        $('.task-list').append('<div>Формат печати: ' + format + '</div>');
-//    }
-
-
-
 
     //Добавление заявки
     $('.send').on('click', function(){
@@ -19,12 +9,12 @@ $(function() {
 //        alert('Format: ' + format + ', Paper: ' + density);
 
 
-        var data = $('#task-form form').serialize();
+        var data = $('form').serialize();
 
         console.log(data);
 
         $.ajax({
-        	url: '/newTask',
+        	url: '/task',
         	method: 'post',
         	data: data,
         	success: function(response){
@@ -35,11 +25,8 @@ $(function() {
 
 //        var formatDiv = $('.task-list').append('<div>Формат печати: ' + format + '</div>');
 //        var densityDiv = $('.task-list').append('<div>Плотность: ' + density + '</div>');
-
 //        $.post('/newTask', {format:format, density:density}, function(response){
 //        });
-
-//        ajax();
     });
 
         $.ajax({

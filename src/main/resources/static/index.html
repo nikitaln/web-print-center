@@ -9,19 +9,21 @@
 </head>
 <body>
 
-<div class="start-page">
+<div class="main-page">
     <div id="task-form">
         <form>
-            <label>Выбор параметров печати</label>
-            <input type="radio" name="format" value="A0">А0 формат
-            <input type="radio" name="format" value="A1">А1 формат
-
-            <label>Выбор плотности</label>
-            <input type="radio" name="density" value="90">обычная
-            <input type="radio" name="density" value="120">плотная
+            <div class="format-area">
+                <label>Выбор параметров печати</label>
+                <input type="radio" name="format" value="A0">А0 формат
+                <input type="radio" name="format" value="A1">А1 формат
+            </div>
+            <div class="density-area">
+                <label>Выбор плотности</label>
+                <input type="radio" name="density" value="90">обычная
+                <input type="radio" name="density" value="120">плотная
+            </div>
         </form>
-        <button class="send">Отправить</button>
-        <button class="take">Заявки</button>
+        <button class="btn-send">Отправить</button>
     </div>
     <div class="task-list">Место для очереди
 
