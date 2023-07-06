@@ -1,5 +1,6 @@
 $(function() {
 
+
     //Добавление заявки
     $('.send').on('click', function(){
 
