@@ -10,7 +10,7 @@
 <body>
 
 <div class="main-page">
-    <div id="task-form">
+    <div id="task-form">Параметры заявки
         <form>
             <div class="format-area">
                 <label>1. Выбор параметров печати</label>
@@ -36,7 +36,7 @@
             <div class="count-copy-area">
                 <label>4. Кол-во экземпляров</label>
                 <br>
-                <input type="number" id="copy-field" name="count-copy" value="">
+                <input type="number" id="copy-field" name="count-copy" value="">копий
             </div>
             <div class="name-person-area">
                 <label>5. Введите ФИО</label>
@@ -48,16 +48,24 @@
                 <br>
                 <input type="tel" name="tel-person" value="">
             </div>
+            <div class="file-area">
+                <label>7. Добавить файл</label>
+                <br>
+                <input type="file" name="file-for-print" accept=".pdf" multiple />
+            </div>
 
         </form>
         <button class="btn-send">Отправить</button>
     </div>
     <div class="task-list">Место для очереди
-<!--        <div class="task-item">-->
-<!--            <div class="task-number">Номер заявки</div>-->
-<!--            <div class="task-format">Формат печати</div>-->
-<!--            <div class="task-density">Плотность бумаги</div>-->
-<!--        </div>-->
+        <div class="task-item">
+            <div class="task-number">Номер заявки: 1</div>
+            <div class="task-format">Формат печати: A4</div>
+            <div class="task-density">Плотность бумаги: 120</div>
+            <div class="task-count-copy">Кол-во копий: 2</div>
+            <div class="task-name">ФИО: Иванов Иван</div>
+            <div class="task-tel">Тел: 8-910-123-13-14</div>
+        </div>
     </div>
 </div>
 </body>
