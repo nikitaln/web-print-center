@@ -13,15 +13,42 @@
     <div id="task-form">
         <form>
             <div class="format-area">
-                <label>Выбор параметров печати</label>
+                <label>1. Выбор параметров печати</label>
+                <br>
                 <input type="radio" name="format" value="A0">А0 формат
                 <input type="radio" name="format" value="A1">А1 формат
+                <input type="radio" name="format" value="A2">А2 формат
+                <input type="radio" name="format" value="A3">А3 формат
+                <input type="radio" name="format" value="A4">А4 формат
             </div>
             <div class="density-area">
-                <label>Выбор плотности</label>
+                <label>2. Выбор плотности</label>
+                <br>
                 <input type="radio" name="density" value="90">обычная
                 <input type="radio" name="density" value="120">плотная
             </div>
+            <div class="fold-area">
+                <label>3. Фальцевание</label>
+                <br>
+                <input type="radio" name="fold" value="Да">да
+                <input type="radio" name="fold" value="Нет">нет
+            </div>
+            <div class="count-copy-area">
+                <label>4. Кол-во экземпляров</label>
+                <br>
+                <input type="number" id="copy-field" name="count-copy" value="">
+            </div>
+            <div class="name-person-area">
+                <label>5. Введите ФИО</label>
+                <br>
+                <input type="text" id="name-field" name="name-person" value="">
+            </div>
+            <div class="tel-person-area">
+                <label>6. Введите моб. номер</label>
+                <br>
+                <input type="tel" name="tel-person" value="">
+            </div>
+
         </form>
         <button class="btn-send">Отправить</button>
     </div>

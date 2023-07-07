@@ -20,6 +20,7 @@ $(function() {
         		                             /* В переменной data содержится ответ от index.php. */
                 if (response.length == 0) {
                     return;
+
                 } else {
 
                     for(i in response) {

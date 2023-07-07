@@ -18,7 +18,7 @@ body {
 
 .format-area {
     width: 400px;
-    height: 50px;
+    height: 80px;
     border: 1px solid grey;     /* граница контейнера div */
 
 }
@@ -30,6 +30,39 @@ body {
 
 }
 
+.fold-area {
+    width: 400px;
+    height: 50px;
+    border: 1px solid grey;
+}
+
+.count-copy-area {
+        width: 400px;
+        height: 50px;
+        border: 1px solid grey;
+
+        #copy-field {
+            width: 50px;
+        }
+}
+
+.name-person-area {
+        width: 400px;
+        height: 50px;
+        border: 1px solid grey;
+
+        #name-field {
+            width: 300px;
+            background-color; yellow;
+        }
+}
+
+.tel-person-area {
+        width: 400px;
+        height: 50px;
+        border: 1px solid grey;
+}
+
 #task-form {
     width: 400px;
     height: 400px;
@@ -38,9 +71,10 @@ body {
 }
 
 .btn-send {
-    margin-top: 200px;          /* Отступ сверху */
+    margin-top: 100px;          /* Отступ сверху */
     width: 400px;
     height: 100px;
+    background-color: lightgreen;
 }
 
 .take {
