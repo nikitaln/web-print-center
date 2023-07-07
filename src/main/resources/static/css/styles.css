@@ -11,20 +11,34 @@ body {
     align-items: center;        /* все эелементы по центру */
 }
 
-
 .main-page {
     display: flex;
     margin-bottom: 30px;
+}
+
+.format-area {
+    width: 400px;
+    height: 50px;
+    border: 1px solid grey;     /* граница контейнера div */
+
+}
+
+.density-area {
+    width: 400px;
+    height: 50px;
+    border: 1px solid grey;
+
 }
 
 #task-form {
     width: 400px;
     height: 400px;
     border: 1px solid grey;
-    margin-right: 30px;
+    margin-right: 30px;         /* Отступ справа */
 }
 
 .btn-send {
+    margin-top: 200px;          /* Отступ сверху */
     width: 400px;
     height: 100px;
 }
@@ -40,7 +54,7 @@ body {
     border: 1px solid red;
 }
 
-.task {
+.task-item {
     width: 400px;
     height: 50px;
     border: 1px solid green;

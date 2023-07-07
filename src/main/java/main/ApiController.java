@@ -10,14 +10,13 @@ import java.util.List;
 public class ApiController {
 
     Storage storage;
-
+    private int idCounter = 0;
 
     @PostMapping(value = "/task")
     public int addTask(Task task) {
-
-        System.out.println("format: " + task.getFormat());
-        System.out.println("density: " + task.getDensity());
-        task.setId(1);
+        idCounter = idCounter + 1;
+        task.setId(idCounter);
+        System.out.println("заявка: " + task.getId() + " | формат: " + task.getFormat() + " плотность: " + task.getDensity());
         storage.tasks.add(task);
         return task.getId();
     }
@@ -26,6 +25,7 @@ public class ApiController {
     @GetMapping("/tasks")
     public List<Task> listTask() {
 
+        System.out.println("кол-во заявок: " + storage.tasks.size());
         return storage.tasks;
     }
 
