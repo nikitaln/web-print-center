@@ -1,7 +1,12 @@
 html, body {
     height: 100%;               /* растягиваем фон на всю страницу */
-    /* font-family: sans-serif; */   /* новый шрифт без засечек */
+    font-family: sans-serif;   /* новый шрифт без засечек */
+    font-size: 14px;
 
+}
+
+label {
+    font-weight: bold;
 }
 
 body {
@@ -9,6 +14,7 @@ body {
     flex-direction: column;     /* все лементы в колоночку */
     justify-content: center;    /* все эелементы по центру */
     align-items: center;        /* все эелементы по центру */
+
 }
 
 .main-page {
@@ -17,45 +23,59 @@ body {
 }
 
 #task-form {
-    width: 400px;
+    width: 600px;
     height: 800px;
     border: 1px solid grey;
     margin-right: 30px;         /* Отступ справа */
     align-items: center;        /* все эелементы по центру */
+    border-radius: 15px;        /* закругленные углы */
+    background-color: lightsteelblue;
 }
 
 .task-list {
-    width: 400px;
+    width: 600px;
     height: 800px;
     border: 1px solid red;
+    border-radius: 15px;
+    background-color: lightsteelblue;
     align-items: center;        /* все эелементы по центру */
 }
 
 .format-area {
     margin-top: 30px;
-    width: 400px;
+    width: 550px;
     height: 80px;
     border: 1px solid grey;     /* граница контейнера div */
-
+    margin-left: auto;          /* способ выравнивания блоков по центру */
+    margin-right: auto;
+    background-color: white;
 }
 
 .density-area {
-    width: 400px;
+    width: 550px;
     height: 50px;
     border: 1px solid grey;
-
+    margin-left: auto;          /* способ выравнивания блоков по центру */
+    margin-right: auto;
+    background-color: white;
 }
 
 .fold-area {
-    width: 400px;
+    width: 550px;
     height: 50px;
     border: 1px solid grey;
+    margin-left: auto;          /* способ выравнивания блоков по центру */
+    margin-right: auto;
+    background-color: white;
 }
 
 .count-copy-area {
-        width: 400px;
-        height: 50px;
-        border: 1px solid grey;
+    width: 550px;
+    height: 50px;
+    border: 1px solid grey;
+    margin-left: auto;          /* способ выравнивания блоков по центру */
+    margin-right: auto;
+    background-color: white;
 
         #copy-field {
             width: 50px;
@@ -63,9 +83,12 @@ body {
 }
 
 .name-person-area {
-        width: 400px;
-        height: 50px;
-        border: 1px solid grey;
+    width: 550px;
+    height: 50px;
+    border: 1px solid grey;
+    margin-left: auto;          /* способ выравнивания блоков по центру */
+    margin-right: auto;
+    background-color: white;
 
         #name-field {
             width: 300px;
@@ -74,24 +97,35 @@ body {
 }
 
 .tel-person-area {
-        width: 400px;
-        height: 50px;
-        border: 1px solid grey;
+    width: 550px;
+    height: 50px;
+    border: 1px solid grey;
+    margin-left: auto;          /* способ выравнивания блоков по центру */
+    margin-right: auto;
+    background-color: white;
 }
 
 .file-area {
-        width: 400px;
-        height: 50px;
+    width: 550px;
+    height: 50px;
+    border: 1px solid grey;
+    margin-left: auto;          /* способ выравнивания блоков по центру */
+    margin-right: auto;
+    background-color: white;
 }
 
 .btn-send {
-    margin-top: 100px;          /* Отступ сверху */
-    width: 400px;
+    margin-top: 260px;          /* Отступ сверху */
+    width: 600px;
     height: 100px;
     background-color: lightgreen;
+    margin-left: auto;          /* способ выравнивания блоков по центру */
+    margin-right: auto;
+    border-radius: 15px;
 }
 
 .task-item {
-    width: 400px;
+    width: 600px;
     border: 1px solid grey;
+    background-color: white;
 }

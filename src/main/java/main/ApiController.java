@@ -16,7 +16,7 @@ public class ApiController {
     public int addTask(Task task) {
         idCounter = idCounter + 1;
         task.setId(idCounter);
-        System.out.println("заявка: " + task.getId() + " | формат: " + task.getFormat() + " плотность: " + task.getDensity());
+        System.out.println(task.toString());
         storage.tasks.add(task);
         return task.getId();
     }
