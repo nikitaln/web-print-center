@@ -6,6 +6,10 @@ $(function() {
             item.append($('<div class="task-number">Номер заявки ' +  task.id + '</div>'));
             item.append($('<div class="task-format">Формат печати ' + task.format + '</div>'));
             item.append($('<div class="task-density">Плотность бумаги ' + task.density + '</div>'));
+            item.append($('<div class="task-fold">Фальцевание: ' + task.fold + '</div>'))
+            item.append($('<div class="task-count-copy">Кол-во копий: ' + task.copyCount + '</div>'));
+            item.append($('<div class="task-name">ФИО: ' + task.userName + '</div>'));
+            item.append($('<div class="task-tel">Тел: ' + task.telNumber + '</div>'));
         $('.task-list').append(item);
     };
 

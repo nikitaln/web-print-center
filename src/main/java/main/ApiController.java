@@ -24,7 +24,6 @@ public class ApiController {
 
     @GetMapping("/tasks")
     public List<Task> listTask() {
-
         System.out.println("кол-во заявок: " + storage.tasks.size());
         return storage.tasks;
     }
