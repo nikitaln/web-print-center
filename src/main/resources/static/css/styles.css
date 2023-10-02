@@ -27,9 +27,9 @@ body {
     height: 800px;
     border: 1px solid grey;
     margin-right: 30px;         /* Отступ справа */
-    align-items: center;        /* все эелементы по центру */
+    align-items: center;        /* все элементы по центру */
     border-radius: 15px;        /* закругленные углы */
-    background-color: lightsteelblue;
+    background-color: linen;
 }
 
 .task-list {
@@ -37,8 +37,8 @@ body {
     height: 800px;
     border: 1px solid red;
     border-radius: 15px;
-    background-color: lightsteelblue;
-    align-items: center;        /* все эелементы по центру */
+    background-color: linen;
+    align-items: center;        /* все элементы по центру */
 }
 
 .format-area {
