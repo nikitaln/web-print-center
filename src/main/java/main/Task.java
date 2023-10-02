@@ -1,5 +1,7 @@
 package main;
 
+import java.io.File;
+
 public class Task {
 
     private int id;
@@ -9,6 +11,7 @@ public class Task {
     private int copyCount;
     private String userName;
     private String telNumber;
+    private File file;
 
     public int getId() {
         return id;

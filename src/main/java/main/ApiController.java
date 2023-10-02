@@ -27,5 +27,4 @@ public class ApiController {
         System.out.println("кол-во заявок: " + storage.tasks.size());
         return storage.tasks;
     }
-
 }
